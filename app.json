@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/2048/2048"
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#333",
+    "navigationBarTitleText":"2048"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#f58220",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页"
+      },
+       {
+      "pagePath": "pages/logs/logs",
+      "text": "启动日志"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

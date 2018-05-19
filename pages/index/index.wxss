@@ -1,0 +1,16 @@
+/**index.wxss**/
+.game_list button{
+	background-color: #f58220; 
+  color: white;
+	font-size: 18px;
+  border-radius: 12px;
+  opacity: 0.9;
+  box-shadow: 0 7px #999;
+}
+.game_list button:active {
+  opacity: 1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: all 0.4s;
+}
+

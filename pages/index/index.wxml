@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  	
+	<view wx:for="{{gameList}}" class="game_list">
+	    <button disabled="{{disabled}}" bindtap="start{{item}}"> {{item}} 游戏入口 </button>
+	</view>
+
+</view>
